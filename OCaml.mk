@@ -1,9 +1,9 @@
 #
-# Ocaml Makefile v0.3
+# OCaml-Meka - v0.3
+# A handy Makefile for OCaml projects
 #
 # Author: Glenn Y. Rolland
 #
-
 
 MLI=$(wildcard *.mli)
 ML=$(wildcard *.ml)
@@ -23,6 +23,7 @@ OCAMLC=ocamlc
 OCAML_OPTS+=
 OCAML_INCS+=
 OCAML_LIBS+=
+
 ## BYTECODE MODE
 ifdef BC
 else
